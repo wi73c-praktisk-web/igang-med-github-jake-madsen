@@ -43,8 +43,15 @@ Du skal nu vælge hvorvidt om du **_Repo_** skal være privat eller offentligt. 
 
 Ned i venstre side kan du se en funktion der hedder **add .gitignore** Her skal du vælge det kodesprog du uploader i, da du derfor uploader færre filer.
 
+Eyyy vi er snart færdige!
 
+Nu skal du åbne GitHub Desktop applikationen du downloadede tidligere!
+Hvis det ser ud som på billedet under, så har du haft success! 
+(Husk nu at jeg har mit navn og billede, og det har altså lykkedes dig selvom de 2 ting ser anderledes ud! :)
 
+![Billedet virker ikke! Ups, prøv igen senere](https://github.com/wi73c-praktisk-web/igang-med-github-jake-madsen/blob/master/img/guide3.png?raw=true "Guide 3")
+
+![Billedet virker ikke! Ups, prøv igen senere](https://github.com/wi73c-praktisk-web/igang-med-github-jake-madsen/blob/master/img/guide4.png?raw=true "Guide 4")
 
 
 
