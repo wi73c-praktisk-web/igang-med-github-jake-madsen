@@ -29,11 +29,21 @@ Når du har logget ind på GitHub, skal du op i højre side ved dit billede, her
 
 ![Billedet virker ikke! Ups, prøv igen senere](https://github.com/wi73c-praktisk-web/igang-med-github-jake-madsen/blob/master/img/guide1.png?raw=true "Guide 1")
 
+Her klikker du på "New Repository". 
 
-Her klikker du på "Create New Repository"
+Du bliver nu ført hen til næste side. 
 
+Til at starte med skal du vælge hvem ejeren af dit repository skal være. Det kan være en orginasition eller dig selv. 
+
+Du skal nu ogaså **HUSKE** at bruge et passende navn der er let og overskueligt, fx. "dette-er-en-nem-og-overskuelig-måde". Så længe du ikke skriver så langt et navn! Men ind med de bindestrege.
 
 ![Billedet virker ikke! Ups, prøv igen senere](https://github.com/wi73c-praktisk-web/igang-med-github-jake-madsen/blob/master/img/guide2.png?raw=true "Guide 2")
+
+Du skal nu vælge hvorvidt om du **_Repo_** skal være privat eller offentligt. Hvis du er en del af en orginasition, så spørg ejeren af det hvad der er bedst!
+
+Ned i venstre side kan du se en funktion der hedder **add .gitignore** Her skal du vælge det kodesprog du uploader i, da du derfor uploader færre filer.
+
+
 
 
 
