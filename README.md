@@ -43,7 +43,7 @@ Du skal nu vælge hvorvidt om du **_Repo_** skal være privat eller offentligt. 
 
 Ned i venstre side kan du se en funktion der hedder **add .gitignore** Her skal du vælge det kodesprog du uploader i, da du derfor uploader færre filer.
 
-Eyyy vi er snart færdige!
+#### Eyyy vi er snart færdige!
 
 Nu skal du åbne GitHub Desktop applikationen du downloadede tidligere!
 Hvis det ser ud som på billedet under, så har du haft success! 
@@ -51,7 +51,13 @@ Hvis det ser ud som på billedet under, så har du haft success!
 
 ![Billedet virker ikke! Ups, prøv igen senere](https://github.com/wi73c-praktisk-web/igang-med-github-jake-madsen/blob/master/img/guide3.png?raw=true "Guide 3")
 
+**_Time for pro tip!_**
+Når du får åbnet dit Visual Studio Code op, så følg denne vej!
+View -> Exstensions -> Søg efter GitHub -> pssst det ser ud som på billedet under! tryk Download, Hent, Installer, Ching Chong, eller hvad end dit sprog nu er!
+
 ![Billedet virker ikke! Ups, prøv igen senere](https://github.com/wi73c-praktisk-web/igang-med-github-jake-madsen/blob/master/img/guide4.png?raw=true "Guide 4")
+
+Du er nu klar til at starte med at kode med Visual Studio Code, uploade det til GitHub, Tilykke! 
 
 
 
