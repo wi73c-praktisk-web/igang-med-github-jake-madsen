@@ -25,8 +25,15 @@ De ting __DU__ har brug for!
 
 Når du har downloadet disse programmer har du fri adgang til at kode i **VS Code**, men først så skal vi lave et Repository på GitHub. (Guiden her forventer du allerede har lavet en bruger!)
 
+Når du har logget ind på GitHub, skal du op i højre side ved dit billede, her klikker du på plusset til venstre for det. 
+
+![Billedet virker ikke! Ups, prøv igen senere](https://github.com/wi73c-praktisk-web/igang-med-github-jake-madsen/blob/master/img/guide1.png?raw=true "Guide 1")
 
 
+Her klikker du på "Create New Repository"
+
+
+![Billedet virker ikke! Ups, prøv igen senere](https://github.com/wi73c-praktisk-web/igang-med-github-jake-madsen/blob/master/img/guide2.png?raw=true "Guide 2")
 
 
 
