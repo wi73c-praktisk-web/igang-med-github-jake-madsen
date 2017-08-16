@@ -26,34 +26,21 @@ else
 
 function parseCprNr ()
     {
-        // console.log("Vi kom ind i parseCprNr");
+        console.log("Vi kom ind i parseCprNr");
         i = 0;
 
         for(i; i<cprNr.length; i++) 
             {
-            cprNr[i] = parseInt(input[i], 10);
-
-            if(input[i] != Number.isInteger)
-                {
-                    console.log("Hvorfor er jeg her?");
-                    result = false;
-                    break;
-                }
-            else
-                {
-                sum = sumUdregner();
+            if (isNaN(input[i]) == true)
+                    {
+                        console.log("Der er forkerte symboler i dit cpr nr", input[i]);
+                        result = false;
+                        break;
+                    }
+                cprNr[i] = parseInt(input[i], 10);
                 
-                if(sum % 11 == 0)
-                    {
-                        result = true;
-                    }
-                else
-                    {
-                        result = false
-                    }
-
-                }
             }
+            result = sumUdregner();
         return result;
     }
 
@@ -68,5 +55,15 @@ function sumUdregner ()
                 sum = sum + res[i];
                 // console.log(sum)
             }
-            return sum;
+
+            if(sum % 11 == 0)
+                {
+                    result = true;
+                }
+            else
+                {
+                    result = false
+                }
+
+            return result;
     }
