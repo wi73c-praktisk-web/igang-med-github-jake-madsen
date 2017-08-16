@@ -1,8 +1,7 @@
-var value = true;
-/* var value = false; */
-
 ////////// Øvelse 1 /////////////
 console.log("------ ØVELSE 1 ------");
+var value = true;
+/* var value = false; */
 
 if(value = true)
     {
