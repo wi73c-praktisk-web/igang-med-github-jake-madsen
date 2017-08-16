@@ -84,6 +84,3 @@ switch (resultat) {
         break;
 
 }
-
-////////// Øvelse 6 /////////////
-console.log("------ ØVELSE 6 ------");
