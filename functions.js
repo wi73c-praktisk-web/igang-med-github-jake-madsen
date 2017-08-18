@@ -1,90 +1,89 @@
-////////// Øvelse 1 /////////////
-// console.log("Øvelse 1")
+//////// Øvelse 1 /////////////
+console.log("Øvelse 1")
+console.log("A")
 
-// console.log("A")
+var person = [0,1,2]
 
-// var person = [0,1,2]
+person = hvemErJeg(person)
 
-// person = hvemErJeg(person)
+console.log(person);
 
-// console.log(person);
+console.log("B")
 
-// console.log("B")
+var tal = [50,25];
 
-// var tal = [50,25];
+calc(tal)
 
-// calc(tal)
+////////// Øvelse 1 - Functions /////////////
+function hvemErJeg(person)
+    {
+        var forNavn = "Jake";
+            efterNavn = "Madsen";
+            fødselsDag = "090396";
+            i = 0;
 
-// ////////// Øvelse 1 - Functions /////////////
-// function hvemErJeg(person)
-//     {
-//         var forNavn = "Jake";
-//             efterNavn = "Madsen";
-//             fødselsDag = "090396";
-//             i = 0;
+        for(i; i<person.length; i++)
+            {
+                if(person[i] == 0)
+                    {
+                        person[i] = forNavn;
+                    }
+                else if (person[i] == 1)
+                    {
+                        person[i] = efterNavn;
+                    }
+                else if (person[i] == 2)
+                    {
+                        person[i] = fødselsDag;
+                    }
+            }
 
-//         for(i; i<person.length; i++)
-//             {
-//                 if(person[i] == 0)
-//                     {
-//                         person[i] = forNavn;
-//                     }
-//                 else if (person[i] == 1)
-//                     {
-//                         person[i] = efterNavn;
-//                     }
-//                 else if (person[i] == 2)
-//                     {
-//                         person[i] = fødselsDag;
-//                     }
-//             }
-
-//         return person;
-//     }
-// function calc(tal)
-//     {
-//         var i = 0;
-//             resultat = 0;
-//         calcPlus(tal,i, resultat)
-//         calcMinus(tal,i, resultat)
-//         calcGange(tal,i, resultat)
-//         calcDivider(tal,i, resultat)
-//     }
-// function calcPlus(tal,i, resultat)
-//     {
-//         for(i; i<tal.length; i++ )
-//             {
-//                 resultat = resultat + tal[i]
-//             }
-//         console.log("resultat af plus:", resultat)
-//     }
-// function calcMinus(tal,i, resultat)
-//     {
-//         resultat = resultat + tal[i]
-//         for(i++; i<tal.length; i++ )
-//             {
-//                 resultat = resultat - tal[i]
-//             }
-//         console.log("resultat af Minus:", resultat)
-//     }
-// function calcGange(tal,i, resultat)
-//     {
-//         resultat = resultat + tal[i]
-//         for(i++; i<tal.length; i++ )
-//             {
-//                 resultat = resultat * tal[i]
-//             }
-//         console.log("resultat af Gange:", resultat)
-//     }
-// function calcDivider(tal,i, resultat)
-//     {
-//         resultat = resultat + tal[i]
-//         for(i++; i<tal.length; i++ )
-//             {
-//                 resultat = resultat / tal[i]
-//             }
-//         console.log("resultat af Divider:", resultat)
-//     }
+        return person;
+    }
+function calc(tal)
+    {
+        var i = 0;
+            resultat = 0;
+        calcPlus(tal,i, resultat)
+        calcMinus(tal,i, resultat)
+        calcGange(tal,i, resultat)
+        calcDivider(tal,i, resultat)
+    }
+function calcPlus(tal,i, resultat)
+    {
+        for(i; i<tal.length; i++ )
+            {
+                resultat = resultat + tal[i]
+            }
+        console.log("resultat af plus:", resultat)
+    }
+function calcMinus(tal,i, resultat)
+    {
+        resultat = resultat + tal[i]
+        for(i++; i<tal.length; i++ )
+            {
+                resultat = resultat - tal[i]
+            }
+        console.log("resultat af Minus:", resultat)
+    }
+function calcGange(tal,i, resultat)
+    {
+        resultat = resultat + tal[i]
+        for(i++; i<tal.length; i++ )
+            {
+                resultat = resultat * tal[i]
+            }
+        console.log("resultat af Gange:", resultat)
+    }
+function calcDivider(tal,i, resultat)
+    {
+        resultat = resultat + tal[i]
+        for(i++; i<tal.length; i++ )
+            {
+                resultat = resultat / tal[i]
+            }
+        console.log("resultat af Divider:", resultat)
+    }
 
 ////////// Øvelse 2 ///////////// 
 // console.log("Øvelse 2 Under opbyggelse")
@@ -105,7 +104,7 @@ var specifik = 0;
         ];
 
 printProfil(profiler);
-
+////////// Øvelse 3 - Functions /////////////
 function printProfil(profiler)
     {
         var forNavn = "";
@@ -150,7 +149,6 @@ function udregnAlder(fodselsAr,alder)
                             alder--
                         }
                 }
-        
-        console.log(dagsDato, datoSplit)
+        // console.log(dagsDato, datoSplit)
         return alder
     }
