@@ -1,20 +1,22 @@
-////////// FIZZBUZZ ////////////
-var fizzBuzz = "FizzBuzz"
-    fizz = "Fizz"
+////////// fizz,buzz ////////////
+var fizz = "Fizz"
     buzz = "Buzz"
     i = 0;
+    fizzAt = 3;
+    buzzAt = 5;
+    countTo = 100
 
-for(i; i <= 50;)
+for(i; i <= countTo; i++)
     {
-        if (i % 3 == 0 && i % 5 == 0)
+        if (i % fizzAt == 0 && i % buzzAt == 0)
             {
-                console.log(fizzBuzz)
+                console.log(fizz,buzz)
             }
-        else if(i % 3 == 0)
+        else if(i % fizzAt == 0)
             {
                 console.log(fizz)
             }
-        else if(i % 5 == 0)
+        else if(i % buzzAt == 0)
             {
                 console.log(buzz)
             }
@@ -22,11 +24,10 @@ for(i; i <= 50;)
             {
                 console.log(i)
             }
-        i++;
     }
 
-for(i; i <= 100;)
-    {
-        resultat = i % 3 == 0 && i % 5 == 0 ? console.log(fizzBuzz) : i % 3 == 0 ? console.log(fizz) : i % 5 == 0 ? console.log(buzz) : console.log(i);
-        i++;
-    }
+// for(i; i <= countTo;)
+//     {
+//         resultat = i % fizzAt == 0 && i % buzzAt == 0 ? console.log(fizz,buzz) : i % fizzAt == 0 ? console.log(fizz) : i % buzzAt == 0 ? console.log(buzz) : console.log(i);
+//         i++;
+//     }
