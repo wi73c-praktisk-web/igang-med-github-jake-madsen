@@ -138,17 +138,17 @@ function udregnAlder(fodselsAr,alder)
 
             alder = dagsDato[0] - datoSplit[0]
 
-            if(datoSplit[1] >= dagsDato[1])
-                {
-                    if(datoSplit[2] > dagsDato[2])
-                        {
-                            alder--
-                        }
-                    else if( datoSplit[1] > dagsDato[1])
-                        {
-                            alder--
-                        }
-                }
+        if(datoSplit[1] >= dagsDato[1])
+            {
+                if(datoSplit[2] > dagsDato[2])
+                    {
+                        alder--
+                    }
+                else if( datoSplit[1] > dagsDato[1])
+                    {
+                        alder--
+                    }
+            }
         // console.log(dagsDato, datoSplit)
         return alder
     }

@@ -30,6 +30,3 @@ function bmiUdregner(højde,vægt)
                 console.log("Din BMI er:", bmi, "Det betyder du er ekstremt overvægtig")
             }
     }
-
-/////////// FARTBØDEN ////////////
-console.log("Opgave - Fartbøden")
