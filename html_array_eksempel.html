@@ -6,27 +6,16 @@
 
 
 <script>
-    var mit_navne_array = 
-        [
-            "Hans",
-            "Ole",
-            "Ludvig"
-        ]
-
+    var mit_navne_array = ["Hans","Ole","Ludvig"];
     var mit_id = document.getElementById("arrayId");
         mit_id.innerHTML = "";
-
     console.log(mit_navne_array)
-
     mit_navne_array.forEach(function(element, index) 
         {
             mit_id.innerHTML += "<li>" + mit_navne_array[index] + "</li>";
         }, 
     this);
-
     console.log(mit_id)
-
-
 </script>
 
 
