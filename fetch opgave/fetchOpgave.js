@@ -39,11 +39,6 @@ function getStarWarsApi(isClicked)
                 mit_id.innerHTML = "Der skete en fejl: " + error;
                 console.log(error)
             });
-    
-        
-    
-    document.getElementById("hent_knap").style.visibility = "hidden";
-    isClicked = true;
 
-        
+    document.getElementById("hent_knap").style.visibility = "hidden";    
 }
