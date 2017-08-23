@@ -17,7 +17,7 @@ function getStarWarsApi(isClicked)
                         throw Error(response.statusText);
                     }
                 return response.json();
-            })
+            æ
         .then((data) => 
             {
                 starwarsPersonArray = data.results
