@@ -5,9 +5,7 @@ function getStarWarsApi(isClicked)
         mit_id.innerHTML = "";
         forNavn = "";
         kon = "";
-        fodselsAr = "";
-
-
+        fodselsAr = "";     
 
     fetch('https://swapi.co/api/people/')
         .then((response) => 
@@ -17,11 +15,11 @@ function getStarWarsApi(isClicked)
                         throw Error(response.statusText);
                     }
                 return response.json();
-            æ
+            })
         .then((data) => 
             {
                 starwarsPersonArray = data.results
-                // console.log(starwarsPersonArray)
+                console.log(starwarsPersonArray)
 
                 starwarsPersonArray.forEach(function(element, index)
                     {
@@ -38,7 +36,9 @@ function getStarWarsApi(isClicked)
             {
                 mit_id.innerHTML = "Der skete en fejl: " + error;
                 console.log(error)
-            });
-
-    document.getElementById("hent_knap").style.visibility = "hidden";    
-}
+            }); 
+    
+    document.getElementById("hent_knap").style.visibility = "hidden";
+    isClicked = true;
+        
+} 
