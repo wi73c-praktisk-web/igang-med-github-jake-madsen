@@ -1,0 +1,17 @@
+{
+  "name": "node_js_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "mysql2": "^1.4.1",
+    "nodemon": "^1.11.0",
+    "restify": "^5.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Jake Madsen",
+  "license": "ISC"
+}
