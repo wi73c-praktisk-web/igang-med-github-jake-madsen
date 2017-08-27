@@ -8,25 +8,35 @@ module.exports =
             pathError = "";
         switch (pathname) 
             {
-                // case "/":
-                //     res.writeHead(200, {'Content-Type': 'text/plain'});                 
-                //     break;
+                case "/index.html":
+                    res.writeHead(200, {'Content-Type': 'text/plain'});                 
+                    break;
                 case "/forside":
                     res.statusCode = 200;
                     res.setHeader('Content-Type', 'text/html');
-                    res.write("Forside");
+                    res.write("Forside" + "\n" + '<ul>' +
+                    '<li><a href="/forside">Forside</a></li>' + 
+                    '<li><a href="/faq">FAQ</a></li>' + 
+                    '<li><a href="/kontakt">Kontakt</a></li>' + '</ul>'
+                    );
                     res.end();
                     break;
                 case "/faq":
                     res.statusCode = 200;
                     res.setHeader('Content-Type', 'text/html');
-                    res.write("FAQ");
+                    res.write("FAQ"+ "\n" + '<ul>' +
+                    '<li><a href="/forside">Forside</a></li>' + 
+                    '<li><a href="/faq">FAQ</a></li>' + 
+                    '<li><a href="/kontakt">Kontakt</a></li>' + '</ul>');
                     res.end();
                     break;
                 case "/kontakt":
                     res.statusCode = 200;
                     res.setHeader('Content-Type', 'text/html');
-                    res.write("Kontakt");
+                    res.write("Kontakt"+ "\n" + '<ul>' +
+                    '<li><a href="/forside">Forside</a></li>' + 
+                    '<li><a href="/faq">FAQ</a></li>' + 
+                    '<li><a href="/kontakt">Kontakt</a></li>' + '</ul>');
                     res.end();
                     break;
                 default:
